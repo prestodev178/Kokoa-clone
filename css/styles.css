@@ -8,10 +8,12 @@
 
 /* Screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 body{
     font-family: -apple-system, sans-serif;
     height: 100vh;
+    color: #2e363e;
 }
 
 
