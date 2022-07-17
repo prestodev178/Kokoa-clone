@@ -1,5 +1,9 @@
 .user-component{
     justify-content: space-between;
+    
+}
+.user-component__column{
+    margin-bottom: 30px;
 }
 .user-component,
 .user-component__column:first-child{
