@@ -30,7 +30,7 @@
 }
 
 .recommended-friends span{
-    margin: 100px 0;
+    margin: 120px 0;
     display: block;
     text-align: center;
     font-size: 18px;
@@ -47,16 +47,26 @@
     opacity: 0.6;
     margin-bottom: 25px;
 }
-
+.open{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 280px;
+}
 .open-post{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.open-post:first-child{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 16px;
+}
 
 .open-post__title{
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 7px;
+    font-size: 20px;
 }
 
 .open-post__hashtags{
@@ -79,7 +89,7 @@
 
 .open-post__member-count{
     opacity: 0.5;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .open-post__members .divider{
