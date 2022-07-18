@@ -109,3 +109,23 @@
 .open-post__heart-count span{
     margin-left: 3px;
 }
+
+@keyframes heartBeat{
+    0%{
+        color: white;
+        transform: none;
+    }
+    50%{
+        color: tomato;  
+        transform: scale(1.5);
+    }   
+    100%{
+        color: white;
+        transform: none;
+    }
+}
+
+.open-post__heart-count i:hover{
+    will-change: transform; /* 그래픽카드와 브라우저가 그래픽을 가속화(속도? or 성능?) 시킴*/
+    animation: heartBeat 2s linear infinite;
+}
