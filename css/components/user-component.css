@@ -27,6 +27,7 @@
     margin-top: 8px;
     font-size: 17px;
     color: rgba(0,0,0,0.5);
+    margin-right: 10px;
 }
 
 .user-component__avatar--xl{
@@ -55,4 +56,23 @@
 .user-component__time{
     margin-bottom: 10px;
     display: block;
+}
+
+.user-component__information{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    position: relative;
+}
+
+.fa-exclamation{
+    font-size: 1px;
+    border: 1px solid red;
+    padding: 0px 4px;
+    border-radius: 50%;
+    color: red;
+    position:absolute;
+    right: 18px;
+    top: 12px;
 }
